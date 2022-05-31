@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+body {
+  
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Fredoka One', cursive !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav-link{
+  color: yellow !important;
+}
+.navbar-brand{
+  color: yellow !important;
+}
+h1{
+  font-size: 20px !important;
+}
+
+.flex-container 
+{
+  display: flex !important 
+  ;
+  
+}
+.btn
+{
+  background-color:red!important;
+  color: white!important;
+}
+.modal-image
+{
+  height: 350px !important ;
+  
+}
+.modal-res
+{
+  background-color: yellow;
+}
+.modal-footer{
+  background-color:black;
+}
+.img1
+{
+  height: 200px !important;
+  width:200px !important;
+
+}
+.fa-plus{
+  color:green;
+
+}
+.fa-minus{
+color:red;
+}
+.fa-trash
+{
+  color:whitesmoke;
+}
+
+.cart-bg{
+  background-image: url("https://img.freepik.com/free-photo/top-view-delicious-crispy-vegetarian-pizza-margherita-dark-blue-background_101125-1235.jpg?w=1380");
+  
+  height: 100%; 
+
+ 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+input{
+  margin-top: 10px !important;
+  box-shadow: none !important;
+}
+.orderbg{
+  background-image: url("https://img.freepik.com/free-vector/restaurant-mural-wallpaper_23-2148707022.jpg?t=st=1652683307~exp=1652683907~hmac=4c537c51ab132c8aaf88effe97e827454fa89919dfd29fcac631615d88139934&w=996");
+  height: 100%;
+
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.adminfunctions{
+  padding: 10px;
+  background-color:rgb(1, 1, 77);
+}
+
+.adminfunctions li{
+  list-style-type: none !important; 
+  display: inline !important;
+  color: white !important;
+}
+.adminfunctions li a{
+   color: white !important;
+   padding: 20px;
+}

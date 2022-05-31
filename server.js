@@ -28,7 +28,9 @@ if(process.env.NODE_ENV ==='production')
 
     })
 }
-
+else{
+  
+}
 
 //getting the pizza collection data on the server
 // app.get("/getPizza", (req, res) => {
@@ -41,7 +43,7 @@ if(process.env.NODE_ENV ==='production')
 //   });
 // });
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8000;
 
 app.listen(port, () => {
   console.log(`Server is running on Port ${port}`);

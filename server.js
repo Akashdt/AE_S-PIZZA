@@ -8,28 +8,26 @@ const path = require('path')
 const app = express();
 app.use(express.json());
 
-
+app.get("/", (req, res) => {
+  res.send("server Working!!!" + port);
+});
 
 app.use("/api/pizzas/", pizzasRoute);
 app.use('/api/users/' ,userRoute)
 app.use("/api/orders/",orderRoutes)
 
-const __dirname = path.resolve();
+
+
 if(process.env.NODE_ENV ==='production')
 {
-  app.use(express.static(path.join(__dirname, "client/build")));
+    app.use('/' , express.static('client/build'))
 
+    app.get('*' , (req , res)=>{
 
-  app.get("*", (req, res) =>
-  res.sendFile(path.resolve(__dirname, "client", "build", "index.html"))
-)
+        res.sendFile(path.resolve(__dirname  , 'client/build/index.html'))
+
+    })
 }
-else{
-  app.get("/", (req, res) => {
-    res.send("server Working!!!" + port);
-  });
-}
-
 
 
 //getting the pizza collection data on the server

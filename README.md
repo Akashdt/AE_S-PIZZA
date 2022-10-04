@@ -43,4 +43,5 @@ ADMIN Dashboard View:
 
 <img width="910" alt="hactober1" src="https://user-images.githubusercontent.com/75598588/193774339-c71655a7-c6f0-4e86-b3c0-cc965e151aa3.PNG">
 
+<img width="815" alt="hactober 2" src="https://user-images.githubusercontent.com/75598588/193775221-b033ef2d-55a8-46c7-834f-4ccb61e6477e.PNG">
 

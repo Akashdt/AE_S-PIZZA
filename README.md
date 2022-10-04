@@ -41,5 +41,6 @@ ADMIN Dashboard View:
 
 ![Screenshot (10)](https://user-images.githubusercontent.com/64660695/172021135-77fcaa81-9cec-4ad7-b84a-4bd56f3e994e.png)
 
+<img width="910" alt="hactober1" src="https://user-images.githubusercontent.com/75598588/193774339-c71655a7-c6f0-4e86-b3c0-cc965e151aa3.PNG">
 
 
